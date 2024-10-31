@@ -1,0 +1,187 @@
+.score-wrapper {
+    background: #333;
+    border-bottom: 3px solid #03a2ff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 85px;
+}
+
+.score-wrapper ul.score-nav {
+    display: inline;
+    float: left;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background: #767676;
+}
+
+.score-wrapper ul.score-nav li {
+    border-radius: 1px;
+    display: inline;
+    float: left;
+    font: bold 12px/14px helvetica, arial, sans-serif;
+    padding: 4px 12px;
+    position: relative;
+}
+
+.score-wrapper ul.score-nav li.active {
+    background:#0d6cbd;
+    border-bottom:2px solid #03a2ff;
+    color: #fff;
+}
+
+.score-wrapper ul.score-nav li:hover {
+    background: #888;
+}
+
+.score-wrapper ul.score-nav li a {
+    color: #fff;
+    text-shadow: 1px 1px 0 #666;
+    text-decoration: none;
+    color:#d3d3d3;
+    display:block;
+}
+
+.score-wrapper ul.score-nav li.active a {
+    color:#fff;
+}
+
+.score-wrapper ul.score-nav li a:hover {
+    text-decoration: none;
+}
+
+ul.score-list {
+    float: left;
+    position: relative;
+    width: 1000%;
+}
+
+ul.score-list .score-link {
+    
+}
+
+ul.score-list li {
+    background: #777;
+    border-radius: 3px;
+        -moz-box-shadow: 0 0 6px -1px #111;
+        -ms-box-shadow: 0 0 6px -1px #111;
+        -o-box-shadow: 0 0 6px -1px #111;
+        -webkit-box-shadow: 0 0 6px -1px #111;
+    box-shadow: 0 0 6px -1px #111;
+    display: inline;
+    float: left;
+    margin-right: 3px;
+    position: relative;
+        -moz-transition: background .3s;
+        -ms-transition: background .3s;
+        -o-transition: background .3s;
+        -webkit-transition: background .3s;
+    transition: background .3s;
+    width: 150px;
+    height: 55px;
+    overflow: hidden;
+}
+
+ul.score-list li:hover {
+    background: #999;
+}
+
+span.score-status {
+    background: #666;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff;
+    float: left;
+    font: 12px/14px helvetica, arial, sans-serif;
+    margin-bottom: 2px;
+    padding: 2px 5px;
+    text-shadow: 1px 1px 0 #111;
+    width: 100%;
+}
+
+.score-teams {
+    display: inline-block;
+    color: #ddd;
+    float: left;
+    font: bold 12px/14px helvetica, arial, sans-serif;
+    padding-left: 5px;
+    width: 69%;
+}
+
+.score-teams .team, .score-right .score {
+    display:block;
+    width:100%;
+}
+
+.score-right {
+    display: inline-block;
+    color: #ddd;
+    float: right;
+    font: 12px/14px helvetica, arial, sans-serif;
+    padding-right: 5px;
+    text-align: right;
+    width: 23%;
+    border-left: 1px solid #fff;
+    }
+    
+.es-carousel {
+    float: left;
+    overflow: hidden;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.es-nav span {
+    cursor: pointer;
+    position: absolute;
+    bottom:0px;
+}
+.es-nav span.es-nav-next::after{
+    content: "〉";
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    left: 8px;
+    top: 16px;
+    width: 20px;
+    display: block;
+}
+
+.es-nav span.es-nav-next {
+    background: #333;
+    right: 0px;
+    width: 25px;
+    height: 55px;
+}
+
+.es-nav span.es-nav-prev::after{
+    content: "〈";
+    position: absolute;
+    color: #fff;
+    font-size: 15px;
+    font-weight:600;
+    left: 3px;
+    top: 16px;
+    width: 20px;
+    display: block;
+}
+
+.es-nav span.es-nav-prev {
+    background: #333;
+    left: 0px;
+    width: 25px;
+    height: 55px;
+}
+
+.es-nav span.es-nav-next:hover, .es-nav span.es-nav-prev:hover {
+    background: #333;
+}
